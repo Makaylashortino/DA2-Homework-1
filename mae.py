@@ -7,7 +7,7 @@ def MAE(true_labels, pred_labels):
     return mean_abs_error
 
 
-def predict(x):
+def Predict(x):
     if x <= 0:
         #y = -1
         return (-1)
