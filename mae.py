@@ -9,7 +9,9 @@ def MAE(true_labels, pred_labels):
 
 def predict(x):
     if x <= 0:
-        y = -1
+        #y = -1
+        return -1
     else:
-        y = 1
-    return y
+        #y = 1
+        return 1
+    #return y
